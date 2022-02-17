@@ -1,0 +1,70 @@
+@import url("https://rocket-ui-library.netlify.app/stylesheets/components.css");
+@import url("https://rocket-ui-library.netlify.app/landing.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+@import url("/stylesheets/utilities.css");
+:root {
+  --bg-radient: radial-gradient(#fff, #ffd6d6);
+  --theme-color: #ff523b;
+  --theme-shade-2: #563434;
+  --txt-gray: #555;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--bg-radient);
+}
+
+/* for heading with highlighted underline */
+.title {
+  margin: 5rem;
+  position: relative;
+  line-height: 3.3rem;
+}
+.title::after {
+  content: "";
+  background: var(--theme-color);
+  width: 5rem;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.featured-category {
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 10rem;
+  margin-top: 2rem;
+}
+
+/* overriding style from component library */
+.nav {
+  border: none;
+  border-radius: unset;
+}
+.sec-introduction {
+  margin-top: 4rem;
+}
+.card {
+  padding: 0;
+  box-shadow: 0 0 0.8rem var(--txt-gray);
+}
+.list-item {
+  border: none;
+}
+.badge-icon {
+  font-size: 0.6rem;
+  padding: 2px 5px;
+  top: -0.9rem;
+  left: -0.5rem;
+}
+.footer {
+  background-color: unset;
+  background: rgb(25, 25, 25);
+}
+.btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+}
