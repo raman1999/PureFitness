@@ -7,6 +7,7 @@
   --theme-color: #ff523b;
   --theme-shade-2: #563434;
   --txt-gray: #555;
+  --txt-white:#fff;
 }
 
 body {
@@ -67,4 +68,5 @@ body {
 .btn {
   display: inline-block;
   margin-top: 1.5rem;
+  border:none;
 }

@@ -11,7 +11,7 @@
     color:var(--txt-gray);
 }
 .txt-white{
-    color:#fff;
+    color:var(--txt-white);
 }
 .theme-shade-2{
     color:var(--theme-shade-2);
