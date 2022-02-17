@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./signup.css">
+  <title>Signup</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="nav bg-radient">
+    <div class="nav-logo">
+      <span class="nav-header l-sp-1">Pure<span class="txt-theme txt-bold">Fitness</span></span>
+    </div>
+    <span id="btn-nav" class="nav-btn"><i class="fas fa-chevron-circle-down fa-lg"></i></span>
+    <!-- Search bar -->
+    <div class="txt-box">
+      <input class="txt-input" type="text" placeholder="Search" />
+      <span class="txt-icon bg-theme"><i class="fas fa-search"></i></span>
+    </div>
+    <!-- list of links -->
+    <ul id="list-nav" class="nav-list nav-list-hide">
+      <li class="list-item  txt-bold">Login</li>
+      <li class="list-item"> <i class="fas fa-home"></i></li>
+      <li class="list-item"><i class="fas fa-heart"></i>
+        <span class="badge-secondary badge-icon txt-bold">3</span>
+      </li>
+      <li class="list-item  txt-bold"> <i class="fas fa-shopping-cart"></i>
+        <span class="badge-secondary badge-icon txt-bold">5</span>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Signup section -->
+  <section class="section-register txt-center flex-box">
+
+    <img class="home-image" src="/images/fit.png" alt="logo" />
+    <!-- Form container -->
+    <form class=" form-container flex-column">
+      <h3 class="title">Register</h3>
+
+      <div class="input-container">
+        <div class="input-box">
+          <span class="label txt-bgDark">First Name<span class="txt-theme">*</span>
+          </span>
+          <input class="txt-input" type="text" placeholder="Enter your first name" />
+        </div>
+        <div class="input-box">
+          <span class="label txt-bgDark">Last Name<span class="txt-theme">*</span></span>
+          <input class="txt-input" type="text" placeholder="Enter your last name" />
+        </div>
+        <div class="input-box">
+          <span class="label txt-bgDark">Email<span class="txt-theme">*</span></span>
+          <input class="txt-input" type="text" placeholder="Enter your email" />
+        </div>
+        <div class="input-box">
+          <span class="label txt-bgDark">Password<span class="txt-theme">*</span></span>
+          <input class="txt-input" type="text" placeholder="Enter your password" />
+        </div>
+        <div class="input-box">
+          <span class="label txt-bgDark">Confirm Password<span class="txt-theme">*</span></span>
+          <input class="txt-input" type="text" placeholder="Re-type your pasword" />
+        </div>
+      </div>
+
+      <div class="submit-container">
+        <button type="submit" class="link btn bg-theme txt-white l-sp-2">REGISTER</button>
+        <p><span class="txt-gray">Already have an account? </span><a href="#"
+            class="link bd-bottom theme-shade-2 l-sp-1"> Login here</a>
+        </p>
+      </div>
+    </form>
+  </section>
+  <!-- Footer -->
+  <footer class="footer txt-center flex-column">
+    <h3 class="txt-white">Made with <i class="fas fa-heart txt-bgFailure"></i> by Raman</h3>
+    <div>
+      <a class="link" href="https://github.com/raman1999">
+        <i class="fab fa-github fa-lg txt-white"></i>
+      </a>
+      <a class="link" href="https://twitter.com/raman_joshi99">
+        <i class="fab fa-twitter fa-lg txt-white "></i>
+      </a>
+      <a class="link" href="https://www.linkedin.com/in/raman-joshi-01325b168/">
+        <i class="fab fa-linkedin-in fa-lg txt-white "></i>
+      </a>
+    </div>
+  </footer>
+</body>
+
+</html>
