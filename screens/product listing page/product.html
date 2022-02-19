@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./product.css">
+    <title>PureFitness</title>
+</head>
+
+<body>
+    <div class="grid-container">
+        <!-- Navbar -->
+        <nav class="nav bg-radient">
+            <div class="nav-logo">
+                <span class="nav-header l-sp-1">Pure<span class="txt-theme txt-bold">Fitness</span></span>
+            </div>
+            <span id="btn-nav" class="nav-btn"><i class="fas fa-chevron-circle-down fa-lg"></i></span>
+            <!-- Search -->
+            <div class="txt-box">
+                <input class="txt-input" type="text" placeholder="Search" />
+                <span class="txt-icon bg-theme"><i class="fas fa-search"></i></span>
+            </div>
+            <!-- List of navbaar links -->
+            <ul id="list-nav" class="nav-list nav-list-hide">
+                <li class="list-item  txt-bold">Login</li>
+                <li class="list-item"> <i class="fas fa-home"></i></li>
+                <li class="list-item"><i class="fas fa-heart"></i>
+                    <span class="badge-secondary badge-icon txt-bold">3</span>
+                </li>
+                <li class="list-item  txt-bold"> <i class="fas fa-shopping-cart"></i>
+                    <span class="badge-secondary badge-icon txt-bold">5</span>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Filter list sidebar -->
+        <aside class="filter-list">
+            <h2 class="theme-shade-2">Filters</h2>
+            <!-- sort by price filter -->
+            <div class="sort-by-price flex-column bd-bottom">
+                <h4>Sort By Price</h4>
+                <div>
+                    <input type="radio" name="low-radio" id="low-to-high">
+                    <label for="low-to-high">Low to High</label>
+                </div>
+                <div>
+                    <input type="radio" name="high-radio" id="high-to-low">
+                    <label for="high-to-low">High to Low</label>
+                </div>
+            </div>
+            <!-- price range filter -->
+            <div class="sort-by-price-range flex-column bd-bottom">
+                <h4>Price Range: <span class="txt-normal">0 to 10000</span></h4>
+                <input type="range" min="0" max="10000" name="price-slider" value="2000">
+            </div>
+            <!-- sort by brand -->
+            <div class="sort-by-brand flex-column bd-bottom">
+                <h4>Brands</h4>
+                <div>
+                    <input type="checkbox" name="myprotein" id="myprotein">
+                    <label for="myprotein">MyProtein</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="xtend" id="xtend">
+                    <label for="xtend">Xtend</label>
+                </div>
+            </div>
+            <!-- sort by category -->
+            <div class="sort-by-category flex-column bd-bottom">
+                <h4>Categories</h4>
+                <div>
+                    <input type="checkbox" name="whey" id="whey">
+                    <label for="whey">Whey Protein</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="bcaa" id="bcaa">
+                    <label for="bcaa">BCAAs</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="preworkout" id="preworkout">
+                    <label for="preworkout">Preworkout</label>
+                </div>
+            </div>
+            <!-- sort by rating -->
+            <div class="sort-by-rating flex-column">
+                <h4>Ratings</h4>
+                <div>
+                    <input type="radio" name="four-above" id="four-above">
+                    <label for="four-above">4 stars and above</label>
+                </div>
+                <div>
+                    <input type="radio" name="three-above" id="three-above">
+                    <label for="three-above">3 stars and above</label>
+                </div>
+                <div>
+                    <input type="radio" name="two-above" id="two-above">
+                    <label for="two-above">2 stars and above</label>
+                </div>
+                <div>
+                    <input type="radio" name="one-above" id="one-above">
+                    <label for="one-above">1 star and above</label>
+                </div>
+            </div>
+    </aside>
+    <!-- products list box -->
+    <div class="products-category-box">
+        <h2 class="title txt-center txt-gray">All Products</h2>
+        <!-- list of different products section -->
+        <section class="products-list flex-box">
+            <div class="card">
+                <img class="card-img" alt="card-image" src="/images/xtend.jpg" />
+                <p class="heading-3 l-sp-1 theme-shade-2 txt-bold">XTEND</p>
+                <span class="card-desc">BCAAs for workout - 1Kg</span>
+                <p class="card-price txt-bold">₹ 1499 <span class="txt-small txt-normal l-through"> ₹ 1900</span>
+                </p>
+                <span class="rating-block theme-shade-2">4.5
+                    <i class="fa fa-star fa-md rating-checked"></i>
+                </span>
+                <button type="button" class="btn bg-theme txt-white"> <i class="fas fa-shopping-cart"></i>&nbsp; Add
+                    to cart</button>
+                <i class="fas fa-heart fa-lg btn-wishlist"></i>
+            </div>
+            <div class="card">
+                <img class="card-img" alt="card-image" src="/images/myprotein.jpeg" />
+                <p class="heading-3 l-sp-1 theme-shade-2 txt-bold">MY Protein</p>
+                <span class="card-desc">Whey Protein-1Kg</span>
+                <p class="card-price txt-bold">₹ 1499 <span class="txt-small txt-normal l-through"> ₹ 1900</span>
+                </p>
+                <span class="rating-block theme-shade-2">4.5
+                    <i class="fa fa-star fa-md rating-checked"></i>
+                </span>
+                <button type="button" class="btn bg-theme txt-white"> <i class="fas fa-shopping-cart"></i>&nbsp; Add
+                    to cart</button>
+                <i class="fas fa-heart fa-lg btn-wishlist"></i>
+            </div>
+            <div class="card">
+                <img class="card-img" alt="card-image" src="/images/on.png" />
+                <p class="heading-3 l-sp-1 theme-shade-2 txt-bold">Optimal Nutrition</p>
+                <span class="card-desc">Whey Protein-1Kg</span>
+                <p class="card-price txt-bold">₹ 1499 <span class="txt-small txt-normal l-through"> ₹ 1900</span>
+                </p>
+                <span class="rating-block theme-shade-2">4.5
+                    <i class="fa fa-star fa-md rating-checked"></i>
+                </span>
+                <button type="button" class="btn bg-theme txt-white"> <i class="fas fa-shopping-cart"></i>&nbsp; Add
+                    to cart</button>
+                <i class="fas fa-heart fa-lg btn-wishlist"></i>
+            </div>
+            <div class="card">
+                <img class="card-img" alt="card-image" src="/images/myprotein.jpeg" />
+                <p class="heading-3 l-sp-1 theme-shade-2 txt-bold">Whey Protein</p>
+                <span class="card-desc">Whey Protein-1Kg</span>
+                <p class="card-price txt-bold">₹ 1499 <span class="txt-small txt-normal l-through"> ₹ 1900</span>
+                </p>
+                <span class="rating-block theme-shade-2">4.5
+                    <i class="fa fa-star fa-md rating-checked"></i>
+                </span>
+                <button type="button" class="btn bg-theme txt-white"> <i class="fas fa-shopping-cart"></i>&nbsp; Add
+                    to cart</button>
+                <i class="fas fa-heart fa-lg btn-wishlist"></i>
+            </div>
+        </section>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer txt-center flex-column">
+        <h3 class="txt-white">Made with <i class="fas fa-heart txt-bgFailure"></i> by Raman</h3>
+        <div>
+            <a class="link" href="https://github.com/raman1999">
+                <i class="fab fa-github fa-lg txt-white"></i>
+            </a>
+            <a class="link" href="https://twitter.com/raman_joshi99">
+                <i class="fab fa-twitter fa-lg txt-white "></i>
+            </a>
+            <a class="link" href="https://www.linkedin.com/in/raman-joshi-01325b168/">
+                <i class="fab fa-linkedin-in fa-lg txt-white "></i>
+            </a>
+        </div>
+    </footer>
+    </div>
+
+</body>
+
+</html>

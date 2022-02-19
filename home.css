@@ -7,7 +7,8 @@
   --theme-color: #ff523b;
   --theme-shade-2: #563434;
   --txt-gray: #555;
-  --txt-white:#fff;
+  --txt-white: #fff;
+  --border-shade:lightpink;
 }
 
 body {
@@ -51,6 +52,7 @@ body {
 .card {
   padding: 0;
   box-shadow: 0 0 0.8rem var(--txt-gray);
+  border: none;
 }
 .list-item {
   border: none;
@@ -68,5 +70,20 @@ body {
 .btn {
   display: inline-block;
   margin-top: 1.5rem;
-  border:none;
+  border: none;
+}
+.rating-block{
+  background-color: rgb(209, 194, 194);
+}
+
+/* body scrollbar */
+body::-webkit-scrollbar-thumb {
+  background-color: var(--theme-color);
+  border-radius: 12px;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--theme-shade-3);
+}
+body::-webkit-scrollbar {
+  width: 0.5rem;
 }
