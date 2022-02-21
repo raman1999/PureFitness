@@ -22,7 +22,12 @@
 .l-height-lg{
     line-height: 1.5;
 }
-
 .bd-bottom{
     border-bottom: 2px solid var(--theme-color);
+}
+.l-through{
+    text-decoration: line-through;
+}
+.txt-normal{
+    font-weight:normal;
 }

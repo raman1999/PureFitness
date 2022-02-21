@@ -1,0 +1,61 @@
+@import url("/home.css");
+
+.title {
+  margin: 3rem auto;
+  line-height: 3rem;
+}
+.cart-category {
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+/* different cards category */
+.cart-items {
+  flex-wrap: wrap;
+  width: 50%;
+  gap: 1rem;
+  justify-content: center;
+}
+/* overriding old styles */
+.card-horizontal {
+  padding: 0;
+  min-width: 20rem;
+  border:none;
+  box-shadow: 0 0 2px var(--theme-color);
+  justify-content: space-around;
+}
+.card-img {
+  width: 20%;
+  min-width: 12rem;
+  height: 27vh;
+}
+/* ******* */
+.card-content-box {
+  padding-right: 2rem;
+  justify-content: space-around;
+  gap: 0.6rem;
+}
+.quantity {
+  width: 2rem;
+  margin: 5px;
+}
+
+/* cart page checkout category */
+.cart-price {
+  width: 25%;
+  height: fit-content;
+  background-color: var(--txt-white);
+  box-shadow:0 0 3px var(--txt-gray);
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem;
+}
+.btn {
+  width: 100%;
+}
+.btn-order {
+  background: var(--theme-shade-3);
+  margin: unset;
+  margin-top: 1.5rem;
+}
