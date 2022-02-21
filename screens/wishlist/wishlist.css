@@ -1,0 +1,19 @@
+@import url("/home.css");
+
+.wishlist-category {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+  margin-bottom: 10rem;
+}
+/* overriding styles */
+.btn-dismiss {
+  border: none;
+}
+.btn {
+  width: 70%;
+}
+.title {
+  margin: 3rem auto;
+  line-height: 3rem;
+}
