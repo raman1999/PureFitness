@@ -27,22 +27,17 @@
 .filter-list {
   grid-area: filter-list;
   width: max-content;
-  border-right: 1px solid var(--theme-shade-3);
   padding: 1rem;
   height: calc(100vh - 6rem);
   overflow: scroll;
   position: sticky;
   top: 10%;
   left: 1%;
-  border-top: 1px solid var(--border-shade);
+  border: 1px solid var(--border-shade);
+  border-right-color: var(--theme-shade-3);
+  border-left:unset;
 }
-/* footer */
-.footer {
-  grid-area: footer;
-  height: 15vh;
-  position: relative;
-  z-index: 1;
-}
+
 /* different products */
 .products-list {
   flex-wrap: wrap;
@@ -50,7 +45,7 @@
   gap: 1rem;
   margin-bottom: 5rem;
 }
-input[type="radio"] {
+input[type="radio"],input[type="checkbox"] {
   accent-color: var(--theme-color);
 }
 

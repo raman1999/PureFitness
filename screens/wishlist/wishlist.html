@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./wishlist.css">
-    <title>PureFitness</title>
+    <title>Wishlist</title>
 </head>
 <body>
     <!-- Navbar -->
@@ -13,7 +13,7 @@
         <div class="nav-logo">
             <span class="nav-header l-sp-1">Pure<span class="txt-theme txt-bold">Fitness</span></span>
         </div>
-        <span id="btn-nav" class="nav-btn"><i class="fas fa-chevron-circle-down fa-lg"></i></span>
+        <span id="btn-hamburger" class="nav-btn"><i class="fas fa-bars fa-lg"></i></span>
         <!-- Search -->
         <div class="txt-box">
             <input class="txt-input" type="text" placeholder="Search" />
@@ -21,14 +21,17 @@
         </div>
         <!-- List of navbaar links -->
         <ul id="list-nav" class="nav-list nav-list-hide">
-            <li class="list-item  txt-bold">Login</li>
-            <li class="list-item"> <i class="fas fa-home"></i></li>
-            <li class="list-item"><i class="fas fa-heart"></i>
-                <span class="badge-secondary badge-icon txt-bold">3</span>
-            </li>
-            <li class="list-item  txt-bold"> <i class="fas fa-shopping-cart"></i>
-                <span class="badge-secondary badge-icon txt-bold">5</span>
-            </li>
+          <li class="list-item  txt-bold"><a href="/screens/login/login.html" class="link theme-shade-2">Login</a>
+          </li>
+          <li class="list-item"> <a href="/" class="link theme-shade-2"><i class="fas fa-home"></i></a></li>
+          <li class="list-item"> <a href="/screens/wishlist/wishlist.html" class="link theme-shade-2"><i
+                      class="fas fa-heart"></i>
+                  <span class="badge-secondary badge-icon txt-bold">3</span></a>
+          </li>
+          <li class="list-item  txt-bold"> <a href="/screens/cart page/cart.html" class="link theme-shade-2"><i
+                      class="fas fa-shopping-cart"></i>
+                  <span class="badge-secondary badge-icon txt-bold">5</span>
+              </a> </li>
         </ul>
     </nav>
   
@@ -103,5 +106,7 @@
             </a>
         </div>
     </footer>
+    <script type="text/javascript" src="https://rocket-ui-library.netlify.app/js/script.js">
+    </script>
 </body>
 </html>

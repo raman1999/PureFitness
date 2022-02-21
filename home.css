@@ -42,10 +42,17 @@ body {
   margin-top: 2rem;
 }
 
+.intro-container>a:hover{
+font-size: 1rem;
+}
+ 
 /* overriding style from component library */
 .nav {
   border: none;
   border-radius: unset;
+}
+.nav-btn>i{
+ color: var(--theme-color);
 }
 .sec-introduction {
   margin-top: 4rem;
@@ -58,6 +65,13 @@ body {
 .list-item {
   border: none;
 }
+.list-item:hover{
+  background-color: unset;
+}
+.list-item>a:hover{
+  font-size: 1.2rem;
+}
+
 .badge-icon {
   font-size: 0.6rem;
   padding: 2px 5px;

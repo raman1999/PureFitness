@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./login.css">
-  <title>Login ppage</title>
+  <title>Login page</title>
 </head>
 
 <body>
@@ -15,7 +15,7 @@
     <div class="nav-logo">
       <span class="nav-header l-sp-1">Pure<span class="txt-theme txt-bold">Fitness</span></span>
     </div>
-    <span id="btn-nav" class="nav-btn"><i class="fas fa-chevron-circle-down fa-lg"></i></span>
+    <span id="btn-hamburger" class="nav-btn"><i class="fas fa-bars fa-lg"></i></span>
 
     <!-- Search bar -->
     <div class="txt-box">
@@ -23,25 +23,26 @@
       <span class="txt-icon bg-theme"><i class="fas fa-search"></i></span>
     </div>
     <ul id="list-nav" class="nav-list nav-list-hide">
-
-      <li class="list-item  txt-bold">Login</li>
-      <li class="list-item"> <i class="fas fa-home"></i></li>
-      <li class="list-item"><i class="fas fa-heart"></i>
-        <span class="badge-secondary badge-icon txt-bold">3</span>
+      <li class="list-item  txt-bold"><a href="/screens/login/login.html" class="link theme-shade-2">Login</a></li>
+      <li class="list-item"> <a href="/" class="link theme-shade-2"><i class="fas fa-home"></i></a></li>
+      <li class="list-item"> <a href="/screens/wishlist/wishlist.html" class="link theme-shade-2"><i
+            class="fas fa-heart"></i>
+          <span class="badge-secondary badge-icon txt-bold">3</span></a>
       </li>
-
-      <li class="list-item  txt-bold"> <i class="fas fa-shopping-cart"></i>
-        <span class="badge-secondary badge-icon txt-bold">5</span>
-      </li>
+      <li class="list-item  txt-bold"> <a href="/screens/cart page/cart.html" class="link theme-shade-2"><i
+            class="fas fa-shopping-cart"></i>
+          <span class="badge-secondary badge-icon txt-bold">5</span>
+        </a> </li>
+    </ul>
 
     </ul>
   </nav>
-  <!-- Signup section -->
+  <!-- Login section -->
   <section class="section-signup txt-center flex-box">
 
-    <img class="home-image" src="/images/tt1.png" alt="logo" />
+    <img class="home-image" src="/images/fit.png" alt="logo" />
 
-    <form class=" form-container flex-column">
+    <form class="form-container flex-column">
       <h3 class="title">Login</h3>
 
       <div class="input-container">
@@ -57,12 +58,13 @@
 
       <div class="flex-column">
         <button type="submit" class="link btn bg-theme txt-white l-sp-2">LOGIN</button>
-        <p><span class="txt-gray">Not a user yet ? </span><a href="#" class="link theme-shade-2 bd-bottom">Create your account</a>
+        <p><span class="txt-gray">Not a user yet ? </span><a href="../signup/signup.html"
+            class="link theme-shade-2 bd-bottom">Create your account</a>
         </p>
       </div>
     </form>
   </section>
-<!-- Footer -->
+  <!-- Footer -->
   <footer class="footer txt-center flex-column">
     <h3 class="txt-white">Made with <i class="fas fa-heart txt-bgFailure"></i> by Raman</h3>
     <div>
@@ -77,5 +79,7 @@
       </a>
     </div>
   </footer>
+  <script type="text/javascript" src="https://rocket-ui-library.netlify.app/js/script.js"></script>
 </body>
+
 </html>
