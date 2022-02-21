@@ -1,0 +1,26 @@
+@import url("/home.css");
+@import url(../login/login.css);
+
+.section-register {
+  justify-content: space-evenly;
+  margin: 5rem auto;
+  margin-bottom: 6rem;
+}
+/* form container */
+.form-container {
+  height: unset;
+}
+.label {
+  display: inline-block;
+  width: 10rem;
+}
+.submit-container {
+  margin-top: 2rem;
+}
+.submit-container > p {
+  margin-top: 1rem;
+}
+.btn {
+  width: 80%;
+  margin: auto;
+}
